@@ -8,7 +8,7 @@ var OP_DOWN = 1;
 var OP_LEFT = 2;
 var OP_RIGHT = 3;
 
-var socket = new WebSocket('ws://somewhere.com:3000');
+var socket = new WebSocket('ws://127.0.0.1:3000');
 
 socket.onopen = function (event) {
     console.log('connection has been established.');
