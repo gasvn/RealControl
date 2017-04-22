@@ -11,7 +11,8 @@ server.addListener('connection', function (conn) {
 
     conn.addListener('message', function (msg) {
         var data = JSON.parse(msg);
-
+        console.log('message received.')
+        console.log('Controler ID:'+conn.id + "|"+data.sender+' Action:'+data.action);
         if (data.sender === CONTROLLER) {
             var command = {};
             command.action = data.action;
