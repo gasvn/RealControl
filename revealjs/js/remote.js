@@ -16,6 +16,8 @@ socket.onopen = function (event) {
 
 socket.onmessage = function (event) {
     var data = JSON.parse(event.data);
+        var data = JSON.parse(event.data);
+        console.log(data);
     switch (data.action) {
         case OP_UP:
             Reveal.navigateUp();
