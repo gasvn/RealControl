@@ -1,8 +1,0 @@
-extends: standard
-env:
-  mocha: true
-rules:
-  no-extra-semi: error
-  semi:
-    - error
-    - always

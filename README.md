@@ -1,5 +1,5 @@
 # RealControl
-A part of MR control
+MR control
 
 powered by nodejs
 
